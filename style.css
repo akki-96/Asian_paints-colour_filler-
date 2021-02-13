@@ -1,0 +1,57 @@
+/*write your css*/
+h1{
+    margin: 10px auto;
+    text-align: center;
+    
+}
+#change_button{
+    border-radius: 5px;
+    margin-left: 44%;
+}
+#change_button:hover{
+    background-color:  #33b9e2;
+    color: white;
+}
+#reset_button{
+    border-radius: 5px;
+    margin-left: 0%;
+}
+#reset_button:hover{
+    background-color:  #33b9e2;
+    color: white;
+}
+.block1{
+    border-radius: 5px;
+    margin-left: 35%;
+    
+}
+.block2{
+    border-radius: 5px;
+    margin-left: 35px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 550px;
+    height: 500px;
+    margin: 6px auto;
+    margin-right: 6px auto;
+    margin-bottom: 6px auto;
+    background-color: rgb(244, 248, 248);
+    border: 2px solid rgb(16, 19, 17);
+    border-radius: 5px;
+    padding: 10px;
+}
+#cell_1,#cell_2,#cell_3,#cell_4,#cell_5,#cell_6,#cell_7,#cell_8,#cell_9{
+  border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 6px auto;
+    float: left;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 6px;
+}
