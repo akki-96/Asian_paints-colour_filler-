@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+   <title>Asian Paint</title>
+   <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+         <h1><b><u>ASIAN PAINTS</u></b></h1>
+         <div class="ap">
+             <span class="block1">
+            <label for="block_id"><b>ENTER BLOCK ID</label> 
+            <input type="number"  max="9" min="1" id="block_id" value="" placeholder="Enter Block No" required>
+           </span>
+           <span class="block2">
+            <label for="colour_id"><b>COLOUR</label> 
+            <input type="text" id="colour_id" value="" placeholder="Enter Colour " required>
+            </span>
+         </div>
+         <br>
+         <div>
+             <button id="change_button" onclick="applyColor()">Apply Colour</button>
+             <button id="reset_button" class="reset" onclick="resetColor()">Reset Colour</button>
+         </div>
+         <br>
+         <div class="asian-paints" id="container">
+         </div>
+</body>
+<script src="script.js"></script>
+</html
